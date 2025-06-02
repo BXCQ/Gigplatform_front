@@ -1,0 +1,273 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "厦门零工市场",
+				"enablePullDownRefresh": true,
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/jobSearch/jobSearch",
+			"style": {
+				"navigationBarTitleText": "零工工作台",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mine/mine",																					
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/jobDetail/jobDetail",
+			"style": {
+				"navigationBarTitleText": "岗位详情",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/employer/index",
+			"style": {
+				"navigationBarTitleText": "雇主中心",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/employer/certification",
+			"style": {
+				"navigationBarTitleText": "企业认证",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/employer/jobPost",
+			"style": {
+				"navigationBarTitleText": "发布岗位",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/employer/jobManage",
+			"style": {
+				"navigationBarTitleText": "岗位管理",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/employer/categoryDetail",
+			"style": {
+				"navigationBarTitleText": "分类详情",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/training/training",
+			"style": {
+				"navigationBarTitleText": "在线培训",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/employer/postJob/index",
+			"style": {
+				"navigationBarTitleText": "发布岗位",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/employer/resume/index",
+			"style": {
+				"navigationBarTitleText": "雇员简历",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/employer/resume/detail",
+			"style": {
+				"navigationBarTitleText": "简历详情",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/category/categoryJobs",
+			"style": {
+				"navigationBarTitleText": "分类任务",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/category/categoryWorkers",
+			"style": {
+				"navigationBarTitleText": "分类工人",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mine/insurance",
+			"style": {
+				"navigationBarTitleText": "保险",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mine/feedback",
+			"style": {
+				"navigationBarTitleText": "意见反馈",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/worker/workerDetail",
+			"style": {
+				"navigationBarTitleText": "工人简历",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/login/register",
+			"style": {
+				"navigationBarTitleText": "注册",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/login/reset-password",
+			"style": {
+				"navigationBarTitleText": "重置密码",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/mine/myApplications",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path" : "pages/employer/jobs/detail",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/employer/jobs/jobDetail",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/employer/jobs/list",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		}
+	],
+	
+	"subPackages": [
+		{
+			"root": "employerPackage",
+			"pages": [
+				{
+					"path": "pages/postJob/index",
+					"style": {
+						"navigationBarTitleText": "发布岗位",
+						"navigationStyle": "custom"
+					}
+				},
+				{
+					"path": "pages/resume/index",
+					"style": {
+						"navigationBarTitleText": "雇员简历",
+						"navigationStyle": "custom"
+					}
+				}
+			]
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "厦门零工市场",
+		"navigationBarBackgroundColor": "#4CAF50",
+		"backgroundColor": "#F8F8F8",
+		"navigationStyle": "custom"
+	},
+	"tabBar": {
+		"color": "#8F8F94",
+		"selectedColor": "#4CAF50",
+		"backgroundColor": "#FFFFFF",
+		"borderStyle": "black",
+		"height": "50px",
+		"fontSize": "10px",
+		"iconWidth": "24px",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/img/tabbar/home.png",
+				"selectedIconPath": "static/img/tabbar/homeactive.png",
+				"text": "找活干"
+			},
+			{
+				"pagePath": "pages/jobSearch/jobSearch",
+				"iconPath": "static/img/tabbar/task.png",
+				"selectedIconPath": "static/img/tabbar/taskactive.png",
+				"text": "任务"
+			},
+			{
+				"pagePath": "pages/mine/mine",
+				"iconPath": "static/img/tabbar/me.png",
+				"selectedIconPath": "static/img/tabbar/meactive.png",
+				"text": "我的"
+			}
+		]
+	},
+	"condition": {
+		"current": 0,
+		"list": [
+			{
+				"name": "雇主模式-简历",
+				"path": "pages/employer/resume/index",
+				"query": ""
+			},
+			{
+				"name": "雇主模式-发布",
+				"path": "pages/employer/postJob/index",
+				"query": ""
+			},
+			{
+				"name": "雇主模式-中心",
+				"path": "pages/employer/index",
+				"query": ""
+			},
+			{
+				"name": "登录页",
+				"path": "pages/login/login",
+				"query": ""
+			},
+			{
+				"name": "注册页",
+				"path": "pages/login/register",
+				"query": ""
+			},
+			{
+				"name": "重置密码页",
+				"path": "pages/login/reset-password",
+				"query": ""
+			}
+		]
+	}
+}

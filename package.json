@@ -1,0 +1,67 @@
+{
+  "name": "xiamen-gig-market",
+  "version": "1.0.0",
+  "description": "厦门零工市场微信小程序",
+  "main": "main.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development uni -p mp-weixin",
+    "build": "cross-env NODE_ENV=production uni build -p mp-weixin",
+    "dev:h5": "cross-env NODE_ENV=development uni -p h5",
+    "build:h5": "cross-env NODE_ENV=production uni build -p h5",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "uni-app",
+    "微信小程序",
+    "零工市场"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@dcloudio/uni-app": "2.0.2-4060420250429001",
+    "@dcloudio/uni-app-plus": "2.0.2-4060420250429001",
+    "@dcloudio/uni-cli-i18n": "^2.0.2-4060620250520001",
+    "@dcloudio/uni-h5": "2.0.2-4060420250429001",
+    "@dcloudio/uni-i18n": "^2.0.2-4060620250520001",
+    "@dcloudio/uni-mp-weixin": "2.0.2-4060420250429001",
+    "@dcloudio/uni-ui": "^1.4.20",
+    "cache-loader": "^4.1.0",
+    "html-webpack-plugin": "^5.6.3",
+    "regenerator-runtime": "^0.12.1",
+    "thread-loader": "^4.0.4",
+    "vue": "^2.6.11",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.8.3",
+    "@babel/preset-env": "^7.20.0",
+    "@dcloudio/types": "^3.3.2",
+    "@dcloudio/uni-automator": "2.0.2-4060420250429001",
+    "@dcloudio/uni-cli-shared": "2.0.2-4060420250429001",
+    "@dcloudio/uni-helper-json": "^1.0.13",
+    "@dcloudio/uni-migration": "2.0.2-4060420250429001",
+    "@dcloudio/uni-template-compiler": "2.0.2-4060420250429001",
+    "@dcloudio/vue-cli-plugin-hbuilderx": "2.0.2-4060420250429001",
+    "@dcloudio/vue-cli-plugin-uni": "2.0.2-4060420250429001",
+    "@dcloudio/vue-cli-plugin-uni-optimize": "2.0.2-4060420250429001",
+    "@dcloudio/webpack-uni-mp-loader": "2.0.2-4060420250429001",
+    "@dcloudio/webpack-uni-pages-loader": "2.0.2-4060420250429001",
+    "@vue/cli-plugin-babel": "~4.5.15",
+    "@vue/runtime-dom": "^3.5.13",
+    "babel-plugin-import": "^1.11.0",
+    "cross-env": "^7.0.3",
+    "mini-types": "^0.1.7",
+    "miniprogram-api-typings": "^3.6.0",
+    "sass": "^1.87.0",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "browserslist": [
+    "Android >= 4.4",
+    "ios >= 9"
+  ],
+  "uni-app": {
+    "scripts": {}
+  }
+}
